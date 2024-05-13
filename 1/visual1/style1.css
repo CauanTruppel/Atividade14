@@ -1,0 +1,84 @@
+/* Reset de estilos */
+* {
+    margin: 15px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Estilo do contêiner principal */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo do título */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo do formulário */
+#inputs {
+    margin-bottom: 20px;
+}
+
+/* Estilo dos rótulos */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+/* Estilo dos inputs */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilo do botão */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo da seção de resultados */
+#resultados {
+    display: none;
+    margin-top: 20px;
+}
+
+/* Estilo dos títulos dos resultados */
+#resultados h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo dos parágrafos dos resultados */
+#resultados p {
+    margin-bottom: 5px;
+    color: #666;
+}
